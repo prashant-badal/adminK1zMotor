@@ -16,7 +16,7 @@ const ConstructionPage = () => {
           <img src={constructionGif} alt="Construction Worker Animation" className={styles.constructionImage} />
         </div>
         <div className={styles.messageContainer}>
-          <h1 className={styles.title}>We’re Working Hard!</h1>
+          <h1 className={styles.title}>We are  <strong>Working Hard!</strong></h1>
           <p className={styles.message}>Sorry for the inconvenience, this section is under construction. Please check back soon.</p>
         </div>
       </div>
