@@ -1,0 +1,40 @@
+.bgGrey {
+   background: #d5d4d4;
+
+  }
+  .containerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alignnItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .homeIcon {
+    font-size: 20px;
+    color: rgb(174, 44, 44); /* Icon color is red */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+    margin-right: 10px;
+  }
+  
+  .homeIcon:hover {
+    color: grey; /* Change icon color to grey on hover */
+  }
+
+  .separator{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .breadCrumbText{
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(18, 16, 16);
+    padding: 4px;
+    
+  }

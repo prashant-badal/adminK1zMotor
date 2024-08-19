@@ -1,0 +1,76 @@
+/* FilterSidebar.module.css */
+.l-sidebar {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .b-filter-2 {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .b-filter-2__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .b-filter-2__group {
+    margin-bottom: 20px;
+  }
+  
+  .b-filter-2__group-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .selectpicker {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .ui-filter-slider {
+    padding: 10px 0;
+  }
+  
+  .ui-filter-slider__info {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .b-filter-type-2__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .b-filter-type-2__input {
+    margin-right: 10px;
+  }
+  
+  .forms__check {
+    display: none;
+  }
+  
+  .forms__label {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .forms__label-check-1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  

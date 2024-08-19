@@ -1,0 +1,246 @@
+
+
+  .footer {
+    position: relative; /* Allows the ::after element to be positioned correctly */
+    padding-top: 111px;
+    color: #888;
+    background: url("../../assets/images/bg.jpg");
+    background-size: cover;
+    z-index: 1; /* Ensures that content is on top */
+  }
+  
+  .footer::after {
+    content: "";
+    position: absolute; /* Covers the entire footer */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    opacity: .9;
+    background-color: #0d0d0d;
+     z-index: -1; /*Places the overlay behind the footer content */
+  }
+  
+  
+  .footerMain {
+    padding-bottom: 90px;
+  }
+
+  
+  
+  .footerLogo  {
+    display: block;
+  
+    margin-bottom: 27px;
+    
+  }
+  
+  img{
+    width: 150px;
+  }
+  .footerInfo {
+    margin-bottom: 30px;
+    line-height: 1.86;
+  }
+  .socialNet {
+
+    list-style: none;
+    display: flex;
+     margin-top: 27px;
+   
+  }
+  
+  .socialNetItem {
+    margin-right: 0;
+    padding-left: 0;
+  }
+  
+  .socialNetLink {
+    padding-right: 15px;
+    color: #ccc;
+  }
+
+  .socialNetItem:hover{
+    transform: scale(1.2); /* Scales the icon to 1.2 times its original size */
+    color: rgb(230, 130, 130); /* Changes the color to red */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for the transform and color */
+  }
+  .socialNetLink :hover{
+    color: rgb(230, 130, 130);
+  }
+  
+  .footerSectionColumns {
+    margin-left: 40px;
+  }
+  
+  .footerSectionTitle {
+    margin-top: 28px;
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .footerSectionListOne {
+    margin-left: -30px;
+  }
+  
+
+  
+  
+  .footerListItem {
+    display: inline-block;
+    padding-right: 30px;
+    vertical-align: top;
+   
+  }
+  
+  .footerListLink {
+    position: relative;
+    display: block;
+    padding-bottom: 6px;
+    padding-left: 19px;
+    transition: all 0.3s;
+    color: #888;
+    text-decoration: none
+  }
+  
+  .footerListLink::after {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    content: '';
+    transform: rotate(45deg);
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+  }
+  .footerListLink:hover{
+    color: aliceblue;
+  }
+  
+  .footerContactLg {
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0;
+    padding-left: 25px;
+  }
+
+
+  .footerContact {
+    position: relative;
+    margin-bottom: 9px;
+    padding-left: 38px;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+
+
+  
+  .iconXs {
+    font-size: 14px;
+  }
+  
+  .iconXs {
+    font-size: 18px;
+  }
+
+  .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
+  }
+  
+
+  .copyright {
+    margin-right: 140px;
+    padding: 32px 0;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .copyrightLink {
+    position: relative;
+    display: inline-block;
+    margin: 0 6px;
+    line-height: 1;
+    transition: all 0.3s;
+    color: #888;
+    border-bottom: 1px solid #888;
+  }
+  
+  .copyrightLink {
+    margin-left: 10px;
+  }
+  
+
+  
+  .copyrightBrand {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ccc;
+  }
+
+
+  
+  .btnUp {
+    position: absolute;
+    right: 45px;
+    bottom: 24px;
+    width: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: #888;
+  }
+  
+  .btn::before, .btnUp::after {
+    position: absolute;
+    content: '';
+  }
+  
+  .btn::before {
+    z-index: 10;
+    top: -24px;
+    left: 17px;
+    transition: all 0.3s;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #eee;
+    border-left: 8px solid transparent;
+  }
+  
+  .btnUp::after {
+    top: -38px;
+    left: 0;
+    transition: all 0.3s;
+    border-right: 25px solid transparent;
+    border-bottom-width: 33px;
+    border-bottom-style:  solid;
+    border-left: 25px solid transparent;
+  }
+  
+  .btnUpHov::before {
+    border-bottom-color: #000;
+  }
+  
+  .btnUp:hover {
+    border-bottom-color: #fff;
+  }
+  
+  .footerListColumns {
+    padding-right: 30px;
+    columns: 2;
+  }

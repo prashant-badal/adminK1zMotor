@@ -1,0 +1,154 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .topBar {
+    background-color: #222;
+    padding: 5px 0;
+    color: #ddd;
+  }
+  
+  .headerTopbarbox1 ul,
+  .headerTopbarbox2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .headerTopbarbox1 ul li,
+  .headerTopbarbox2 ul li {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerTopbarbox1 ul li a,
+  .headerTopbarbox2 ul li a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  .headerTopbarbox1 ul li a:hover,
+  .headerTopbarbox2 ul li a:hover {
+    color: #fff;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+
+
+  
+  /* .socialLinks {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socialIcons {
+    font-size: 18px;
+    color: #ddd;
+    margin-right: 10px;
+  }
+  
+  .socialIcons:hover {
+    color: #fff;
+  } */
+
+  .scrollLogo{
+    width: 100px;
+  }
+  .navContainer{
+    display: flex;
+    
+    justify-content: end;
+  }
+  .navItem{
+   
+    display: flex;
+   
+    justify-content: space-around;
+  }
+  .btnPrimary {
+    /* background-color: #007bff; */
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btnPrimary:hover {
+    background-color: #ea4860;
+    color: #fff;
+}
+
+.sellBtn{
+  color: black;
+  background-color: #a3767d;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sellBtn:hover{
+  background-color: #5d252a;
+   
+}
+
+.sellBtnLink{
+  text-decoration: none;
+  color: black;
+  color: #fff;
+}
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .topBar {
+      text-align: center;
+    }
+  
+    .headerTopbarbox1 ul {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .headerTopbarbox2 ul {
+      justify-content: center;
+    }
+  
+    .headerTopbarbox1 ul li,
+    .headerTopbarbox2 ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .socialIcons {
+      margin-right: 5px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .headerTopbarbox1 ul,
+    .headerTopbarbox2 ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+
+  
