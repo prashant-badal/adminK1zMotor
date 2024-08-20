@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
+import { Container, Navbar, Nav} from 'react-bootstrap';
 import styles from './Headers.module.css'; // Assuming you're using CSS Modules
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo1 from '../../assets/images/logo1.jpg'; // Replace with your logo path
@@ -45,7 +45,7 @@ const Headers = () => {
         {/* Navbar */}
         <Navbar bg='light' expand="lg" id="nav">
           <Container>
-            <Navbar.Brand href="home.html">
+            <Navbar.Brand href="/">
              
               <img
                 className={`${styles.scrollLogo} hidden-xs img-responsive`}
